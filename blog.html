@@ -17,42 +17,59 @@
       <section class="blogSection">
         <div class="blogBody">
           <h2>Q1. Difference between local storage and session storage.</h2>
-          <p>
-            Local Storage : Local storage is the most recent mechanism. It
-            allows for larger amounts of data to be stored, but the data is not
-            deleted when the browser is closed. Local storage is useful for
-            storing data that the user will need to access later, such as
-            offline data.
-          </p>
-          <p>
-            Session Storage : Session storage is similar to cookies, but the
-            data is only stored for the current session. This means that the
-            data will be deleted when the user closes the browser. Session
-            storage is useful for storing data that is sensitive, such as login
-            credentials.
-          </p>
+          <table>
+            <tr>
+              <th>Local Storage</th>
+              <th>Session Storage</th>
+            </tr>
+            <tr>
+              <td>
+                Local storage is the most recent mechanism. It allows for larger
+                amounts of data to be stored, but the data is not deleted when
+                the browser is closed. Local storage is useful for storing data
+                that the user will need to access later, such as offline data.
+              </td>
+
+              <td>
+                Session storage is similar to cookies, but the data is only
+                stored for the current session. This means that the data will be
+                deleted when the user closes the browser. Session storage is
+                useful for storing data that is sensitive, such as login
+                credentials.
+              </td>
+            </tr>
+          </table>
         </div>
         <div class="blogBody">
           <h2>
             Q2. Difference between global scope and block scope in javascript.
           </h2>
-          <p>
-            Global Scope : The variables defined outside of any function or
-            curly brackets are known as global variables and have global scope.
-            Global scope means that the variables can be accessed from any part
-            of that program, any function or conditional state can access that
-            variable.
-          </p>
-          <p>
-            Block Scope : Block scope is also a sub-type of local scope. The
-            block scope can be defined as the scope of the variables inside the
-            curly brackets {}. Now, these curly brackets can be of loops, or
-            conditional statements, or something else. You are only allowed to
-            refer to these variables from within the curly brackets {}.
-          </p>
+          <table>
+            <tr>
+              <th>Global Scope</th>
+              <th>Block Scope</th>
+            </tr>
+            <tr>
+              <td>
+                The variables defined outside of any function or curly brackets
+                are known as global variables and have global scope. Global
+                scope means that the variables can be accessed from any part of
+                that program, any function or conditional state can access that
+                variable.
+              </td>
+
+              <td>
+                Block scope is also a sub-type of local scope. The block scope
+                can be defined as the scope of the variables inside the curly
+                brackets {}. Now, these curly brackets can be of loops, or
+                conditional statements, or something else. You are only allowed
+                to refer to these variables from within the curly brackets {}.
+              </td>
+            </tr>
+          </table>
         </div>
         <div class="blogBody">
-          <h2>Q3.How to work javascript event loop?</h2>
+          <h2>Q3. How to work javascript event loop?</h2>
           <p>
             The Event Loop has one simple job — to monitor the Call Stack and
             the Callback Queue. If the Call Stack is empty, the Event Loop will
@@ -62,7 +79,7 @@
           </p>
         </div>
         <div class="blogBody">
-          <h2>Q4.How many way to get undefined?</h2>
+          <h2>Q4. How many way to get undefined?</h2>
           <h4>8 Ways to get Undefined:</h4>
           <ul>
             <li>A declared variable without assigning any value to it.</li>
