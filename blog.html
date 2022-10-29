@@ -13,10 +13,68 @@
     </header>
     <main>
       <section>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+          <h3>Q1. Difference between local storage and session storage.</h3>
+          <p>
+            Local Storage : Local storage is the most recent mechanism. It
+            allows for larger amounts of data to be stored, but the data is not
+            deleted when the browser is closed. Local storage is useful for
+            storing data that the user will need to access later, such as
+            offline data.
+          </p>
+          <p>
+            Session Storage : Session storage is similar to cookies, but the
+            data is only stored for the current session. This means that the
+            data will be deleted when the user closes the browser. Session
+            storage is useful for storing data that is sensitive, such as login
+            credentials.
+          </p>
+        </div>
+        <div>
+          <h3>
+            Q2. Difference between global scope and block scope in javascript.
+          </h3>
+          <p>
+            Global Scope : The variables defined outside of any function or
+            curly brackets are known as global variables and have global scope.
+            Global scope means that the variables can be accessed from any part
+            of that program, any function or conditional state can access that
+            variable.
+          </p>
+          <p>
+            Block Scope : Block scope is also a sub-type of local scope. The
+            block scope can be defined as the scope of the variables inside the
+            curly brackets {}. Now, these curly brackets can be of loops, or
+            conditional statements, or something else. You are only allowed to
+            refer to these variables from within the curly brackets {}.
+          </p>
+        </div>
+        <div>
+          <h3>Q3.How to work javascript event loop?</h3>
+          <p>
+            The Event Loop has one simple job — to monitor the Call Stack and
+            the Callback Queue. If the Call Stack is empty, the Event Loop will
+            take the first event from the queue and will push it to the Call
+            Stack, which effectively runs it. Such an iteration is called a tick
+            in the Event Loop. Each event is just a function callback.
+          </p>
+        </div>
+        <div>
+          <h3>Q4.How many way to get undefined?</h3>
+          <h4>8 Ways to get Undefined:</h4>
+          <ul>
+            <li>A declared variable without assigning any value to it.</li>
+            <li>
+              Implicit returns of functions due to missing return statements.
+            </li>
+            <li>return statements that do not explicitly return anything.</li>
+            <li>Lookups of non-existent properties in an object.</li>
+            <li>Function parameters that have not passed.</li>
+            <li>Anything that has been set to the value of undefined.</li>
+            <li>Any expression in the form of void(expression)</li>
+            <li>The value of the global variable (undefined)</li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>
